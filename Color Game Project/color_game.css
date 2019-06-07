@@ -1,0 +1,65 @@
+body{
+  background: #232323; /* IDEA: the attribute background changes the color of the background and not any text */
+  margin: 0;
+}
+h1{
+  text-align: center;
+  line-height: 1.1;
+  color: white;
+  margin: 0;
+  background: steelblue;
+  font-family: "Avenir";
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#rgb{
+  font-size: 200%;
+}
+#message{
+  color: black; /* IDEA: the attribute color changes the color of the text and not the background */
+  display: inline-block;
+  width: 20%;
+  color: steelblue;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+.square{
+  width: 30%;
+  margin: 1.66%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  border-radius: 25%;
+  transition: 1.5s;
+}
+#container{
+  margin:0 auto;
+  padding-bottom: 40%;
+  max-width: 500px;
+  padding-top: 2%;
+}
+#strip{
+  background: white;
+  height: 30px;
+  text-align: center;
+}
+.selected{
+  background: steelblue;
+  color: white;
+}
+button{
+  border: none;
+  background: none;
+  height: 100%;
+  color: steelblue;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+button:hover{
+  color: white;
+  background: steelblue;
+  transition: 1s;
+}
